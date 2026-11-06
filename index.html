@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Projects by Sachin Peter: full-stack web applications, educational software, and interactive games." />
+  <link rel="icon" type="image/png" href="assets/sachin-peter-logo.png" />
   <title>Sachin Peter — Developer Portfolio</title>
   <style>
     :root{
@@ -37,7 +38,8 @@
       border-bottom:1px solid var(--line)
     }
     .nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}
-    .logo{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.04em;font-size:1.2rem}
+    .logo img{width:84px;height:60px;object-fit:fill;margin:-6px -8px -6px -10px}
     .logo span{color:var(--accent)}
     .nav-links{display:flex;gap:28px;color:var(--muted);font-size:.92rem}
     .nav-links a:hover{color:var(--text)}
@@ -111,7 +113,7 @@
 <body>
   <nav>
     <div class="container nav-inner">
-      <a class="logo" href="#home">SP<span>.</span></a>
+      <a class="logo" href="#home" aria-label="Sachin Peter home"><img src="assets/sachin-peter-logo.png" alt="" />Sachin Peter<span>.</span></a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#work">Work</a>
@@ -263,14 +265,14 @@
             <div>
               <div class="section-label">04 — Contact</div>
               <h2>Have an idea to build or learn from?</h2>
-              <p>I enjoy collaborating with people who want to make useful, thoughtful software. Contact links will be added here soon.</p>
-              <span class="btn btn-primary">Contact details coming soon</span>
+              <p>I enjoy collaborating with people who want to make useful, thoughtful software. Reach me by email, GitHub, or LinkedIn.</p>
+              <a class="btn btn-primary" href="mailto:sachinpeter2438@gmail.com">Email me ↗</a>
             </div>
             <div class="contact-list">
-              <div class="contact-item">Email · to be added</div>
+              <a class="contact-item" href="mailto:sachinpeter2438@gmail.com">sachinpeter2438@gmail.com ↗</a>
               <a class="contact-item" href="https://github.com/SachinPeter2438" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
               <a class="contact-item" href="https://www.linkedin.com/in/sachin-peter-5b491b357/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-              <div class="contact-item">More contact options coming soon</div>
+              <div class="contact-item">Open to collaboration</div>
             </div>
           </div>
         </div>
